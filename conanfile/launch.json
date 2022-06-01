@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "conan install package",
+            "type": "python",
+            "request": "launch",
+            "program": "/usr/local/bin/conan",
+            "console": "integratedTerminal",
+            "args": ["install", "."]
+        },
+    ]
+}
